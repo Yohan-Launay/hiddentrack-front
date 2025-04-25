@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { getMusicPosts } from "../api/user_api";
+import { getMusicPosts } from "../api/music_posts_api";
 import { MusicPost } from "../types/MusicPost";
 
 export default function MusicPostsPage() {
